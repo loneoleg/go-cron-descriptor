@@ -1,7 +1,6 @@
 // Package crondescriptor converts cron expressions into human readable
 // strings. The package includes four options for minor customization
 // of output.
-//
 package crondescriptor
 
 import (
@@ -600,7 +599,7 @@ func (cd *CronDescriptor) getDayOfTheWeekDescription() (*string, error) {
 	segDesc, err := cd.getSegmentDescription(
 		expr,
 		DayOfWeek,
-		", every day",
+		", every day of the week",
 		func(s string) (*string, error) {
 			expr := s
 			cd.sugarLog.Debugf("Check: \"%s\" contains a #: %t", s, cd.contains(s, []string{"#"}))
