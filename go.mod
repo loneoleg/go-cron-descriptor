@@ -1,4 +1,4 @@
-module github.com/jsuar/go-cron-descriptor
+module github.com/loneoleg/go-cron-descriptor
 
 go 1.13
 
