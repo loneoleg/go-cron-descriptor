@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/jsuar/go-cron-descriptor/pkg/crondescriptor"
+	"github.com/loneoleg/go-cron-descriptor/pkg/crondescriptor"
 )
 
 func main() {
